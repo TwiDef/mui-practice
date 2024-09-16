@@ -1,0 +1,17 @@
+.card {
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.img {
+    width: 100%;
+    height: 180px;
+}
+
+.imgWrapper img{
+    border-radius: 10px 10px 0 0 ;
+}

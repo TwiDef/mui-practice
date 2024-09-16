@@ -4,6 +4,7 @@ import { grey } from '@mui/material/colors';
 import NavBar from "./componenst/NavBar/NavBar";
 import Preview from "./componenst/Preview/Preview";
 import Content from "./componenst/Content/Content";
+import Cards from "./componenst/Cards/Cards";
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <main >
         <Preview />
         <Content />
+        <Cards />
       </main>
 
     </Box>

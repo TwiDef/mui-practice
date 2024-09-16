@@ -11,14 +11,14 @@ const Preview = () => {
 
     <Paper
       sx={{
-        backgroundImage: `url(https://i.ytimg.com/vi/5pdW306PpLQ/maxresdefault.jpg)`,
+        backgroundImage: `url(https://gaming-cdn.com/img/products/7956/pcover/7956.jpg?v=1684316535)`,
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
         backgroundPosition: "cover",
         pt: 2,
         pb: 2,
       }}>
-      <Container fixed>
+      <Container fixed sx={{ height: 300 }}>
         <Grid container>
           <Grid item md={6}>
             <div className={styles.preview}>
