@@ -39,7 +39,7 @@ const Cards = () => {
   return (
     <Container maxWidth="md">
       <Stack
-        sx={{ mt: 10 }}
+        sx={{ pt: 10, pb: 10 }}
         direction="row"
         justifyContent="center"
         gap={6}
