@@ -21,10 +21,6 @@ const Footer = () => {
 
   return (
     <footer>
-      <Typography
-        variant="h6"
-        textAlign="center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</Typography>
-
       <BottomNavigation
         value={value}
         onChange={handleChange}
@@ -36,27 +32,29 @@ const Footer = () => {
           value="recents"
           icon={<RestoreIcon />}
         />
-
         <BottomNavigationAction
           className={styles.label}
           label="Favorites"
           value="favorites"
           icon={<FavoriteIcon />}
         />
-
         <BottomNavigationAction
           className={styles.label}
           label="Nearby"
           value="nearby"
           icon={<LocationOnIcon />}
         />
-
         <BottomNavigationAction
           className={styles.label}
           label="Folder"
           value="folder"
           icon={<FolderIcon />} />
       </BottomNavigation>
+
+      <Typography
+        sx={{ color: grey[600] }}
+        variant="h6"
+        textAlign="center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</Typography>
 
     </footer>
 
